@@ -1,5 +1,6 @@
-contactListScript
+contactlistscript.py
 =================
+###Contact List Script for Python
 
 A simple and very specific python script I wrote. ContactListScript looks at an input text file for Names and Email addresses and builds an output text file using tab delimited column format. It uses 3 columns/fields for data; Firstname, Surname and Email Address.
 This was not built for large files, nor was it written for general purpose. It needs tweaking but I thought I'd put it up anyway. Please refer to the license before use. 
