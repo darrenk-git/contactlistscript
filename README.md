@@ -24,3 +24,9 @@ If you are using it yourself then you will most likely need to change some thing
 Most likely is the 'if' condition looking for "Name" and "Email" as well as the list slice lines for each (i.e. like '[8:-1]').
 The first number in the list slice is the characters you want to count over before starting to add the data (like 'Name - " incl spaces).
 The second number in the list slice is '-1', I used this to remove a newline character (i.e. '\n') from the data I was working with.
+
+####Possible future tweaks
+
+The addition of line or two to remove duplicate entries.
+The addition of more robust and capable handling of data.
+A simple user interface to allow more general use of the script.
