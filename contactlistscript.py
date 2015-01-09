@@ -30,7 +30,7 @@ for line in input_lines:
   if "Email - " in line: #change the condition to suit the data you're looking for
     print "Adding: ", line #output for debugging
     output_list.append(line[8:-1]) #adjust slice as necessary to grab data from the line of text
-    print(leads_list) #output for debugging
+    print(output_list) #output for debugging
     output_append.writelines(output_list) #writes the new data to a line
     output_append.write('\n') # writes a newline character. Used to create a new line for data in the tab delimited text file.
     output_list = []
